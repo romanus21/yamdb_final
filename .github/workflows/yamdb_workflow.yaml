@@ -54,20 +54,7 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
             sudo docker pull ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKER_PROJECT }}:latest
-            pwd
-            pwd
-            pwd
-            ls
-            ls
-            ls
-            ls
-            ls
-            ls
-            pwd
-            pwd
-            pwd
-            pwd
-            pwd
+            cd ${{ secrets.DOCKER_USERNAME }}
             pwd
             sudo docker-compose stop
             sudo docker-compose rm web
