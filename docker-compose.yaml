@@ -7,12 +7,12 @@ services:
       - postgres_data:/var/lib/postgresql/data/
     env_file:
       - ./.env
-  web:
-    build: .
+ web:
+    image: romanus/yamdb_final:latest
+    container_name: web
     restart: always
     volumes:
       - static_value:/code/static/
-
       - media_value:/code/media/
     depends_on:
       - db
