@@ -55,7 +55,14 @@ jobs:
           script: |
             sudo docker pull ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKER_PROJECT }}:latest
             pwd
-            ls
+            pwd
+            pwd
+            pwd
+            pwd
+            pwd
+            pwd
+            pwd
+            pwd
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env
