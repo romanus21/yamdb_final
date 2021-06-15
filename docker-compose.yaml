@@ -7,7 +7,7 @@ services:
       - postgres_data:/var/lib/postgresql/data/
     env_file:
       - ./.env
- web:
+web:
     image: romanusus/yamdb_final:latest
     container_name: web
     restart: always
@@ -19,7 +19,7 @@ services:
     env_file:
       - ./.env
 
-  nginx:
+nginx:
     image: nginx:1.19.3
 
     ports:
@@ -39,4 +39,3 @@ volumes:
   postgres_data:
   static_value:
   media_value:
-
