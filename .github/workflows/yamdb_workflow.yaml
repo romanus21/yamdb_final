@@ -25,7 +25,6 @@ jobs:
     - name: Test with flake8 and django tests
       run: |
         # запуск проверки проекта по flake8
-        python -m flake8
         # перейти в папку, содержащую manage.py - <корневая_папка>/<папка_проекта>/manage.py
         # запустить написанные разработчиком тесты
     - name: Pytest
