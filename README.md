@@ -7,4 +7,4 @@ API for service for film raiting.
 https://github.com/romanus21/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg
 
 # Посмотреть проект можно по ссылке
-http://178.154.208.231/api/v1/
+http://84.252.134.126/admin/
